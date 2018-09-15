@@ -1,6 +1,5 @@
 # SASS-Introduction
 
-Learning some SASS through online resources, this first project was taken from the following youtube video:
+This folder contains projects created through following online tutorials.
 
-https://www.youtube.com/watch?v=roywYSEPSvc
-
+The aim of these tutorials was for me to become familiar with SASS.
