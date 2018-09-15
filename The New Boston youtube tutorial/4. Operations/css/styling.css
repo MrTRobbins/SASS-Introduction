@@ -1,0 +1,22 @@
+.button, .jumbo-button, .light-button {
+  background: #16A085;
+  border-radius: 8px;
+  color: #fff;
+  display: inline-block;
+  padding: 5px;
+  text-decoration: none; }
+
+.jumbo-button {
+  padding: 35px; }
+
+.light-button {
+  background: #21f0c8; }
+
+/*Whenever you multiply a color by a value greater than 1 it brightens the shade.
+
+Similarly, whenever you multiply a color by a value less than 1 it darkens the shade.
+
+Its better to use a multiplication than to find a lighter color online because all buttons will update if you need to change the $button-background color at the top.
+*/
+
+/*# sourceMappingURL=styling.css.map */

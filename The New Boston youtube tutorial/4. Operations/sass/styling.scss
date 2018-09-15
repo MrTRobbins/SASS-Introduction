@@ -1,0 +1,29 @@
+$button-background: #16A085;
+$buttonColor: #fff;
+$button-padding: 5px;
+
+.button{
+    background: $button-background;
+    border-radius: 8px;
+    color: $buttonColor;
+    display: inline-block;
+    padding: $button-padding;
+    text-decoration: none;    
+}
+
+.jumbo-button{
+    @extend .button; 
+    padding: $button-padding + 30;
+}
+
+.light-button{
+    @extend .button;
+    background: $button-background * 1.5;    
+}
+
+/*Whenever you multiply a color by a value greater than 1 it brightens the shade.
+
+Similarly, whenever you multiply a color by a value less than 1 it darkens the shade.
+
+Its better to use a multiplication than to find a lighter color online because all buttons will update if you need to change the $button-background color at the top.
+*/

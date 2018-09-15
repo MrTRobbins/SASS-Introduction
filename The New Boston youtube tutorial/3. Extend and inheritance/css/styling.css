@@ -1,0 +1,24 @@
+.panel, .little-panel, .big-panel {
+  border: 3px solid dodgerblue;
+  background: #EEA571;
+  margin: 10px; }
+
+/* Mixins remove the need for having to keep repeating these -webkit- -moz - ms- factors for different browser compatability*/
+/*@extend makes the new class take the properties of the listed class .panel in this example - this saves you having to repeat code. */
+.little-panel {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border-radius: 5px;
+  font-size: 12px;
+  padding: 5px; }
+
+.big-panel {
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  border-radius: 20px;
+  font-size: 32px;
+  padding: 20px; }
+
+/*# sourceMappingURL=styling.css.map */
